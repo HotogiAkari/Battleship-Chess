@@ -1,0 +1,33 @@
+# Unity 生成的文件和文件夹
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Unity Package Manager 的缓存（但保留 manifest.json 和 packages-lock.json）
+/[Pp]ackages/*
+!/Packages/manifest.json
+!/Packages/packages-lock.json
+
+# IDE 生成的文件
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# Unity 包文件
+*.unitypackage
+
+# 其他 Unity 生成的调试文件
+*_BurstDebugInformation_DoNotShip
+*_BackUpThisFolder_ButDontShip
+
+# Windows 系统文件
+Thumbs.db
+Desktop.ini
